@@ -4,8 +4,6 @@ import desktopImage from '../components/images/desktop.jpeg'
 import mobileImage from '../components/images/mobile.jpeg'
 
 const Hem = () => {
-    const imageUrl = window.innerwidth >=768 ? desktopImage : mobileImage;
-
 
     return(
         <div className='hem_container'>

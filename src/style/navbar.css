@@ -1,4 +1,86 @@
-*,
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#40aae8, #126697);
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+  /* NAV LINKS */
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+    color: #E0E0E0;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    font-weight: bold;
+    color: rgb(129, 30, 196);
+  }
+
+  .nav-icon {
+    margin-right: 8px;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+  }
+  
+  /* RESPONSIVE */
+
+
+  @media (max-width: 768px) {
+
+    .nav-link {
+      margin: 0 10px;
+    }
+  
+    .nav-right {
+      margin-right: 10px;
+    }
+
+    .nav-icon {
+      margin-right: 7px;
+    }
+
+    .nav-link {
+      font-size: 8px;
+    }
+
+    .nav-right {
+      font-size: 14px;
+    }
+
+    .navbar {
+      height: 60px;
+
+   }
+
+
+
+  }
+
+
+
+
+  
+
+
+
+
+
+/* *,
 *::after,
 *::before{
     margin: 0;
@@ -75,13 +157,13 @@ a{
 
 /* Nav Active Class */
 
-.nav__active {
+/* .nav__active {
     transform: translateX(0);
-}
+} */
 
 /* Toggler Icon Animation */
 
-.toggle .line1{
+/* .toggle .line1{
 transform: rotate(-45deg) translate(-4px, 5px);
 }
 
@@ -91,4 +173,4 @@ transform: rotate(-45deg) translate(-4px, 5px);
 
 .toggle .line3{
 transform: rotate(45deg) translate(-4px, -5px);
-}
+} */
