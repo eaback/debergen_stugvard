@@ -1,7 +1,5 @@
 import React from 'react'
 import '../style/Hem.css'
-import desktopImage from '../components/images/desktop.jpeg'
-import mobileImage from '../components/images/mobile.jpeg'
 
 const Hem = () => {
 
