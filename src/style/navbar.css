@@ -19,7 +19,7 @@ li{
 
 a{
     text-decoration: none;
-    color: darkgray;
+    color: whitesmoke;
 }
 
 .nav{
@@ -27,8 +27,7 @@ a{
     align-items: center;
     justify-content: space-around;
     height: 8vh;
-    background: rgb(0,28,73);
-
+    background: linear-gradient(#40aae8, #126697);
 }
 
 .nav__brand{

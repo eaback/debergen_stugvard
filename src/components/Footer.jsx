@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
                 <div className='bottom'>
                     <span className='line'></span>
-                    <p>2021 De Bergen All rights reserved</p>
+                    <p className='nav-item'>2021 De Bergen All rights reserved</p>
                 </div>
             </div>
         </div>

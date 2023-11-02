@@ -14,7 +14,7 @@ const Hem = () => {
                     <h2>
                         De Bergen
                     </h2>
-                    <p>Din Partner i Ljungdalen Fjällvärld</p>
+                    <p>Din Partner i Ljungdalens Fjällvärld</p>
                 {/* <div>
                     <div className='text_box'>
                     Välkommen till De Bergen, din förtrogna partner för stugvärdstjänster, 
