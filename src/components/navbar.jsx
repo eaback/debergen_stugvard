@@ -25,7 +25,7 @@ function Navbar(props) {
         </Link>
         <Link to="/om" className="nav-link">
           <InfoIcon className="nav-icon" />
-          OM
+          OM OSS
         </Link>
         <Link to="/tjänster" className="nav-link">
           <LocalOfferIcon className="nav-icon" />
